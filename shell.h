@@ -10,5 +10,6 @@
 #include <sys/stat.h>
 
 ssize_t read_textfile(const char *filename, size_t letters);
+int hsh_env(char **args, char __attribute__((__unused__)) **start);
 
 #endif
